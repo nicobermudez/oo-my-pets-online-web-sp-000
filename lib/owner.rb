@@ -8,6 +8,7 @@ class Owner
 
   def initialize(species)
     @species=species
+    @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def self.all
@@ -21,4 +22,6 @@ class Owner
   def say_species
     "I am a #{self.species}."
   end
+
+  def pets
 end
