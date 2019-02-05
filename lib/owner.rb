@@ -52,11 +52,12 @@ class Owner
   end
 
   def sell_pets
-    self.pets.each do |hash, type| 
+    self.pets.each do |hash, type|
       type.each {|pet| pet.mood = "nervous" }
     end
   end
 
   def list_pets
+    "I have , , and."
   end
 end
