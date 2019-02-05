@@ -18,7 +18,7 @@ class Owner
     @@count
   end
 
-  def self.say_species
+  def say_species
     puts "I am a #{self.species}."
   end
 end
