@@ -11,7 +11,11 @@ class Owner
   end
 
   def self.all
-    @all
+    @@all
+  end
+
+  def self.count
+    @@count
   end
 
   def species
