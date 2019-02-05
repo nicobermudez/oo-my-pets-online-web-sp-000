@@ -24,4 +24,5 @@ class Owner
   end
 
   def pets
+  end
 end
