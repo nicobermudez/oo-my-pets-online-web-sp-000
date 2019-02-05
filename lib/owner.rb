@@ -10,6 +10,6 @@ class Owner
     @species
   end
 
-  def species 
+  def species
   end
 end
