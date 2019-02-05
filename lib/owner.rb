@@ -9,4 +9,7 @@ class Owner
   def initialize
     @species
   end
+
+  def species 
+  end
 end
