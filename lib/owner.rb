@@ -1,7 +1,8 @@
 class Owner
   # code goes here
-  attr_writer :name, :pets
-  attr_reader :species, :name, :pets
+  attr_accessor :pets, :name, :fish, :cat, :dog
+  attr_writer
+  attr_reader :species
 
   @@all = []
   @@count = 0
@@ -24,6 +25,6 @@ class Owner
   end
 
   def buy_fish(name)
-    @pets[:fishes] << name
+    
   end
 end
