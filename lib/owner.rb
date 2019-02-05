@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_writer :name. :pets
+  attr_writer :name, :pets
   attr_reader :species, :name, :pets
 
   @@all = []
