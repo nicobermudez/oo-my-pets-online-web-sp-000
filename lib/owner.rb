@@ -6,6 +6,7 @@ class Owner
 
   @@all = []
   @@count = 0
+  @@reset_all
 
   def initialize(species)
     @species=species
@@ -23,6 +24,7 @@ class Owner
   end
 
   def reset_all
+    @@all.clear 
   end
 
   def say_species
